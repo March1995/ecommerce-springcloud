@@ -61,5 +61,24 @@
         }
       }
     ]
+  },
+  {  "id": "e-commerce-order-service",
+    "predicates": [
+      {
+        "args": {
+          "pattern": "/imooc/ecommerce-order-service/**"
+        },
+        "name": "Path"
+      }
+    ],
+    "uri": "lb://e-commerce-order-service",
+    "filters": [
+      {
+        "name": "StripPrefix",
+        "args": {
+          "parts": "1"
+        }
+      }
+    ]
   }
 ]

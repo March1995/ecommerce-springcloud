@@ -15,7 +15,7 @@ spring:
       discovery:
         enabled: true
         server-addr: 127.0.0.1:8848
-        namespace: 1bc13fd5-843b-4ac0-aa55-695c25bc0ac6
+        namespace:
         metadata:
           management:
             context-path: ${server.servlet.context-path}/actuator
