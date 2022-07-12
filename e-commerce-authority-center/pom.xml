@@ -19,6 +19,11 @@
     <description>授权中心</description>
 
     <dependencies>
+        <!-- nacos config -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
         <!-- spring cloud alibaba nacos discovery 依赖 -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
